@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
 body {
-    background-color: rgba(228, 205, 0, 0.973);
+    background-color: pink;
     font-family:"Roboto", sans-serif;
 }
 
@@ -25,7 +25,7 @@ body {
 
 .navigation-items, .nav-left, .nav-right a {
     text-decoration: none;
-    color: black;
+    color: rgb(80, 80, 80);
 }
 
 @media screen and (min-width:768px) {
@@ -44,7 +44,7 @@ body {
 }
 
 .navigation-items li {
-    color: black;
+    color: rgb(80, 80, 80);
     margin: 0 8px;
     list-style: none;
     cursor: pointer;
@@ -53,25 +53,25 @@ body {
 }
 
 .navigation-items a {
-    color: black;
+    color: rgb(80, 80, 80);
     text-decoration: none;
 }
 
 
 .navigation .button a {
     padding: 10px;
-    border: 1px solid #000;
+    border: 1px solid rgb(80, 80, 80);
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
     text-decoration: none;
-    color:#000;
+    color:rgb(80, 80, 80);
     text-decoration: none;
 }
 
 
 .navigation .button a:hover {
-    background-color: #000;
+    background-color: rgb(80, 80, 80);
     transition: 1s;
     color: rgba(228, 205, 0, 0.973);
 }
@@ -88,7 +88,7 @@ body {
 
 
 .main-info .title {
-    color:#000;
+    color:rgb(80, 80, 80);
     text-align: center;
     font-size: 48px;
     font-weight: 600;
@@ -119,16 +119,17 @@ body {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  background: black;
-    border-radius: 10px;
+  color: rgb(80, 80, 80);
+  background: white;
+  border-radius: 10px;
 }
 
 .search-select select {
-    background: white;
+    background: rgb(216, 216, 216);
     border: none;
     padding: 10px;
     margin: 10px 0px 10px 10px;
-    color: black;
+    color:rgb(80, 80, 80);
     border-radius: 10px;
     font-weight: 500;
 }
@@ -137,7 +138,7 @@ body {
     width: 100%;
     background: transparent;
     border: none;
-    color: #ccc;
+    color: rgb(80, 80, 80);
     margin-left: 10px;
     font-size: 14px;
 }
@@ -163,7 +164,7 @@ input:focus {
 .results-item {
     margin: 10px;
     padding: 5px;
-    background-color: black;
+    background-color: rgb(216, 216, 216);
     color: white;
     border-radius: 15px;
     
@@ -177,7 +178,7 @@ input:focus {
 }
 
 .results-item h3, .results-item p {
-    color: #F7E01D;
+    color: rgb(80, 80, 80);
     text-align: center;
 }
 
