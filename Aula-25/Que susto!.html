@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memovies</title>
+    <link rel="stylesheet" href="./styles/main.css">
+<body>
+    <div class="container">
+        <div class="navigation">
+            <div class="nav-left">
+                <img src="./assets/images/Logo.svg" alt="Memovies logo" width="87" height="64">
+                <ul class="navigation-items">
+                    <li id="terror">Que susto!</li>
+                    <li id="comédia">Mó comédia</li>
+                    <li id="ação">Pew Pew</li>
+                    <li id="ficção">É real, é?</li>
+                    <li id="animação">Tá na Disney?</li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <div class="button">
+                    <a href="https://github.com/Alrosar" target="_blank">
+                        + Chama
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="main-info">
+                <h1 class="title">Bora dar risada hoje, fio kkk</h1>
+                <h3 class="subtitle">Digite alguma coisa que a gente te ajuda!</h3>
+            </div>
+            <div class="main-search">
+                <div class="search-bar">
+                    <div class="search-select">
+                        <select name="search-select" id="search-select">
+                            <option value="movie">Filmin</option>
+                            <option value="series">Seriadim</option>
+                            <option value="episodes">Episódim</option>
+                        </select>
+                    </div>
+                    <input type="text" placeholder="Procure um filme aqui, uai" class="search-input">
+                    <div class="search-icon">
+                        <img src="./assets/icons/search.svg" alt="Busca um filmim, fio">
+                    </div>
+                </div>
+            </div>
+            <div class="results-area">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./src/main.js"></script>
+</body>
+
+</html>
